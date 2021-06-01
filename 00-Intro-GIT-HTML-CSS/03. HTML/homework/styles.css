@@ -1,0 +1,23 @@
+body {
+
+}
+h1 {
+    color: #00a5a9;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px; 
+    width: 500px;
+    background-color: crimson;
+    padding: 50px;
+    border: 3px solid #00a5a9;
+}
+div {
+    text-align: center;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}

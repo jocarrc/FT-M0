@@ -1,39 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Box Model</title>
-  <style type="text/css">
-    .simple {
-      width: 500px;
-      margin: 20px auto;
-      background: red;
-      border: black 10px solid;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #dos {
+      display: inline-block;
+      background-color: red;
+      height: 50px;
+      width: 50px;
     }
-
-    .margen {
-      width: 500px;
-      margin: 20px auto;
-      padding: 50px;
-      border-width: 10px;
-      background: gray;
-      border: yellow 10px solid;
+    #tres {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      background-color: green;
     }
- 
-
-    div {
-      box-sizing: border-box;
-    }
-
   </style>
 </head>
 <body>
-    
-    <div class="simple">Soy chico</div>
-    <div class="margen">Soy más grande. Porqué si los dos tenemos 500 px de <i>width</i></div>
-    <div class="margen">
-      Soy más grande. Porqué si los dos tenemos 500 px de <i>width</i>
-      <div class="simple">Absolute</div>
-    </div>
-
+<div>
+  <div style='display: inline-block; background-color: gray; height:50px; width: 50px;'id='uno'></div>
+  <div id='dos'></div>
+  <div id='tres'></div>
+</div>
 </body>
 </html>
